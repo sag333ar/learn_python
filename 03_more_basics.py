@@ -15,7 +15,7 @@ print(intValueThree)
 hello = "Hello"
 world = "World"
 space = " "
-string = hello + " " + world
+string = hello + space + world
 print(string)
 
 # -----------------------

@@ -1,13 +1,14 @@
-helloW = "Hello world!"
+helloW = "Anaiya Rhea!"
+# H = 0, e = 1, l = 2,  l = 3, o = 4, " " = 5, w = 6, o = 7
 print(len(helloW)) # length of the string
 
 # ------
 
-print(helloW.index("w")) # index of w
+print(helloW.index("R")) # index of w
 
 # ------
 
-print(helloW.count("l")) # 3 times
+print(helloW.count("a")) # 3 times
 
 # --- Slice the string
 

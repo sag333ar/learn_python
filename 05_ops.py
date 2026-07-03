@@ -15,20 +15,21 @@ print(power3)
 
 # -------
 
-lostsOfAdityas = "Aditya " * 5 # join 5 times same string
-print(lostsOfAdityas)
+lotsOfAdityas = "Aditya " * 5 # join 5 times same string
+print(lotsOfAdityas)
 
 # -------
 
 even = [2,4,6,8]
 odd = [1,3,5,7]
-# Join two arrays into one
+# Join two list into one
 all = even + odd
 print(all)
 
 # -------
 
 print(odd * 3) # make one array by joining same array multiple times
+# [1,3,5,7, 1,3,5,7, 1,3,5,7]
 
 # -------
 
