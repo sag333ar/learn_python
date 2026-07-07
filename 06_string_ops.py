@@ -1,4 +1,4 @@
-helloW = "Anaiya Rhea!"
+helloW = "Rhea Anaiya"
 # H = 0, e = 1, l = 2,  l = 3, o = 4, " " = 5, w = 6, o = 7
 print(len(helloW)) # length of the string
 

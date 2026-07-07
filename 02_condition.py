@@ -1,12 +1,13 @@
 x = 2
 myFloatValue = 75.754545
-firstName = "Aditya"
+firstName = "Sagar"
 
-if x == 1 or firstName == "Aditya":
-  print("x is holding 1 value %d" % x)
+if x == 1 or firstName == "Sir":
+  print("x is holding a value %d" % x)
 else:
   print("x is something else %d" % x)
   print("aditya inside else scope")
 
 print("Percent %f" % myFloatValue)
-print("int value %i float value %.1f string value %s" % (x, myFloatValue, firstName))
+print("int value %i float value %.2f string value %s" % (x, myFloatValue, firstName))
+print(f"int value {x}, float value {myFloatValue}, string value {firstName}")

@@ -15,7 +15,7 @@ print(power3)
 
 # -------
 
-lotsOfAdityas = "Aditya " * 5 # join 5 times same string
+lotsOfAdityas = "Aditya " * 3 # join 3 times same string
 print(lotsOfAdityas)
 
 # -------

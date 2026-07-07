@@ -1,6 +1,6 @@
 stringA = 'Hello World'
 stringB = "Hello World"
-stringC = "Hello Rhea's World"
+stringC = "Hello Rhea's World. \"Quote\""
 stringD = 'Hello Anaiya\'s World'
 
 # -----------------------
@@ -22,6 +22,7 @@ print(string)
 
 valueOne, valueTwo, stringE, aFloatValue = 1, 2, "Hello", 7.7789676
 print("valueOne %d, valueTwo %d, stringE %s, aFloatValue %.2f" % (valueOne, valueTwo, stringE, aFloatValue))
+print(f"valueOne {valueOne}, valueTwo {valueTwo}, aFloatValue {aFloatValue}")
 
 # -----------------------
 
