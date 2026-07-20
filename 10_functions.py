@@ -3,6 +3,7 @@ def hello_world():
     print("Hello world!")
 
 def greetings(username, greeting):
+    print("Hello, %s" % username)
     print("Hello, %s, From My Function!, I wish you %s"%(username, greeting))
 
 def sum_two_numbers(a, b):

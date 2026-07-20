@@ -15,8 +15,8 @@ print(power3)
 
 # -------
 
-lotsOfAdityas = "Aditya " * 3 # join 3 times same string
-print(lotsOfAdityas)
+lotsOfAdityas = "Aditya" * 3 # join 3 times same string
+print(lotsOfAdityas) # "AdityaAdityaAditya"
 
 # -------
 

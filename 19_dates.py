@@ -1,4 +1,9 @@
 import datetime
+import camelcase
+
+text = "hello world techcoderlabz sagar"
+cci = camelcase.CamelCase()
+print(cci.hump(text))
 
 currentDate = datetime.datetime.now()
 
