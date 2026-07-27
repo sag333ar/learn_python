@@ -4,18 +4,18 @@ print(abs(-30))
 
 print(len('Hello World!'))
 
-print(bool(0))
-print(bool(1))
-print(bool(100))
-print(bool('Hello'))
-print(bool(None))
+print(bool(0)) # false
+print(bool(1)) # true
+print(bool(100)) # true
+print(bool('Hello')) # true
+print(bool(None)) # false
 
-print(dir('Hello'))
+print(dir('Aditya'))
 list = [1, 3, 4]
 print(dir(list))
-# print(help(list.pop))
+# print(help('aditya'.center))
 
-mycode = "print('Hello World!')"
+mycode = "print(len('Hello World!'))"
 eval(mycode)
 exec(mycode)
 

@@ -6,6 +6,8 @@ phonebook["Jack"] = 938377264
 phonebook["Jill"] = 947662781
 phonebook["Sagar"] = 123456789
 
+print(phonebook["Sagar"])
+
 print(phonebook)
 
 students = {
@@ -39,3 +41,21 @@ if 3 in students:
   print("Enrollment number 3 exists")
 else:
   print("Enrollment number 3 DOES NOT exists")
+  
+studentData = [
+  {
+  'name': 'Aditya',
+  'college': 'Symbiosis',
+  'home': 'bramha'
+},
+  {
+  'name': 'harshal',
+  'college': 'Symbiosis',
+  'home': 'bramha'
+},
+  {
+  'name': 'Advay',
+  'college': 'Symbiosis',
+  'home': 'bramha'
+},
+]

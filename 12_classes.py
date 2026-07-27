@@ -22,6 +22,7 @@ class Car(Vehicle):
     self.fuelType = fuelType
     
   def showInfo(self):
+    print("========")
     super().showInfo()
     print(f"Fuel type for {self.model} is {self.fuelType}")
 
@@ -33,5 +34,37 @@ aGenericVehicle.showInfo()
 suzukiAlto = Car(60, 'Alto', 'Petrol')
 suzukiAlto.showInfo()
 
+windsor = Car(40, 'Windsor', 'Electric')
+windsor.showInfo()
+
 firstObject = MyClass(20)
 firstObject.printValue()
+
+
+# ==========
+
+class Student2:
+  def helloWorld():
+    print("Hello World")
+
+studentObject = Student2()
+studentObject.helloWorld()
+
+# ==========
+
+class Student:
+  def __init__(self, name, age, no):
+    self.__name = name
+    self.__age = age
+    self.__no = no
+  
+  def display(self):
+    print(f"{self.__name} | {self.__age} | {self.__no}")
+  
+  def upgrade(self):
+    self.__age = 1 + self.__age 
+
+harshal = Student("Harshal", 23, 10)
+harshal.display()
+harshal.upgrade()
+harshal.display()

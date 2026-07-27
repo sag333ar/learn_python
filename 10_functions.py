@@ -17,5 +17,4 @@ greetings(1, 2)
 
 # after this line x will hold the value 3!
 x = sum_two_numbers(1,2)
-
 print(sum_two_numbers("Sagar", "Python"))
